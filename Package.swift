@@ -11,9 +11,11 @@ let package = Package(
             name: "CSVSearchEngine",
             targets: ["CSVSearchEngine"]),
     ],
+//    dependencies: [
+//            // Add this line
+//            .package(url: "https://github.com/realm/SwiftLint.git", from: "0.45.0")
+//        ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "CSVSearchEngine"),
         .testTarget(
