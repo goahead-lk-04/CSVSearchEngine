@@ -5,9 +5,9 @@ It enables developers to perform complex searches and data operations on CSV fil
 Designed for flexibility, speed, and scalability, this framework is good for mobile development.
 
 ## Features
-**Advanced Search Queries:** perform complex searches with conditions such as equality, range, and combined logical operators.
-**Dynamic Indexing:** automatically indexes CSV data to ensure quick retrieval.
-**Data Analysis Tools:** identify duplicates, missing values, or similar entries across datasets.
+**Advanced Search Queries:** perform complex searches with conditions such as equality, range, and combined logical operators.  
+**Dynamic Indexing:** automatically indexes CSV data to ensure quick retrieval.  
+**Data Analysis Tools:** identify duplicates, missing values, or similar entries across datasets.  
 
 ## Instalation
 **SPM**
@@ -16,7 +16,7 @@ Designed for flexibility, speed, and scalability, this framework is good for mob
 - select the latest version and click **Add Package**
 
 **CocoaPods**
-The framework is available on CocoaPods. Add the following to your Podfile:
+The framework is available on CocoaPods. Add the following to your Podfile:  
 `pod 'CSVSearchEngine'`
 `pod install`
 
