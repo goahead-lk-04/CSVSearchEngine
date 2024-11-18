@@ -28,6 +28,7 @@ let parser = CSVSearchEngine.CSVParser(filePath: filePath)
 await parser.parseHeaders()
 await parser.processRowsAsync(batchSize: 500)
 parser.indexManager.loadRowPositionsFromFile()
+```
 
 ## Planned Features
 - comparing a bunch of csv files for row-matching
