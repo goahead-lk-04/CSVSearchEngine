@@ -16,9 +16,9 @@ Designed for flexibility, speed, and scalability, this framework is good for mob
 - select the latest version and click **Add Package**
 
 **CocoaPods**
-The framework is available on CocoaPods. Add the following to your Podfile:  
-`pod 'CSVSearchEngine'`
-`pod install`
+The framework is available on CocoaPods. Add the following to your Podfile:    
+`pod 'CSVSearchEngine'`  
+`pod install`  
 
 ## Usage
 To work with the file and run queries, firstly you need to index your csv file:
